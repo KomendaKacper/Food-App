@@ -40,8 +40,12 @@ h4.card-title {
   overflow: hidden;
 }
 
+.navbar {
+  font-size: 20px;
+}
+
 .footer {
-  font-size: 13px;
+  font-size: 20px;
   text-align: center;
   margin-top: 20px;
   top: 50%;
@@ -51,6 +55,11 @@ h4.card-title {
 
 .navbar-brand {
   margin-left: 10px; /* Odstęp między ikoną a napisem */
+}
+
+span.navbar-brand {
+  font-size: 28px; /* Odstęp między ikoną a napisem */
+  font-weight: bold;
 }
 
 .homepage-carousel-title {
@@ -64,3 +73,41 @@ h4.card-title {
   border-radius: 10px;
 }
 
+a.nav-link {
+  color: white;
+}
+
+.left-image {
+  background-image: url("./images/Description/Cook.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 600px;
+}
+
+.right-image {
+  background-image: url("./images/Description/Delivery.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 600px;
+}
+
+.button-search {
+  padding: 30px 400px 30px 400px;
+  margin-top: 40px;
+  font-size: 25px;
+}
+
+h1.about-title {
+  font-size: 70px;
+  font-weight: bold;
+}
+
+.cooking-gif {
+  background-color: black;
+}
+
+p.about-text {
+  font-size: 25px;
+}

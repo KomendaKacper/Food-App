@@ -6,13 +6,14 @@ export const Carousel = () => {
     <div className="container mt-5" style={{ height: "600px" }}>
       <div className="d-none d-lg-block">
         <div className="homepage-carousel-title text-center">
-          <h3>Which food are you looking for?</h3>
+          <h2>Which food are you looking for?</h2>
         </div>
 
         <div
           id="carouselExampleControls"
           className="carousel slide mt-5"
-          data-bs-interval="true"
+          data-bs-ride="carousel"
+          data-bs-interval="6000"
         >
           <div className="carousel-inner">
             <div className="carousel-item active">
@@ -72,6 +73,9 @@ export const Carousel = () => {
 
       {/* Mobile view */}
       <div className="d-lg-none mt-3">
+      <div className="homepage-carousel-title text-center">
+          <h2>Which food are you looking for?</h2>
+        </div>
         <div className="container d-flex justify-content-center">
           <div className="row">
             <FoodCard name="Search food" />

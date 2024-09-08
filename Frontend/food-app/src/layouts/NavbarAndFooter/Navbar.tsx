@@ -35,6 +35,11 @@ export const Navbar = () => {
               </a>
             </li>
             <li className="nav-item">
+            <a href="/#" className="nav-link text-white px-2">
+              Search
+            </a>
+          </li>
+            <li className="nav-item">
               <a className="nav-link" href="/about">
                 About
               </a>
@@ -42,9 +47,9 @@ export const Navbar = () => {
           </ul>
           <ul className="navbar-nav ms-auto">
             <li className="nav-item">
-              <button type="button" className="btn btn-outline-light">
+                <a className="nav-link" href="/#">              
                 Sign in
-              </button>
+                </a>
             </li>
           </ul>
         </div>

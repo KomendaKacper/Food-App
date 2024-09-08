@@ -24,7 +24,12 @@ export const Footer = () => {
             </a>
           </li>
           <li className="nav-item">
-            <a href="/about" className="nav-link text-white px-2">
+            <a href="/#" className="nav-link text-white px-2">
+              Search
+            </a>
+          </li>
+          <li className="nav-item">
+            <a href="/#" className="nav-link text-white px-2">
               About
             </a>
           </li>
