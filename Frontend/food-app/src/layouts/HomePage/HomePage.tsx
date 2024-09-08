@@ -1,7 +1,12 @@
+import { Carousel } from "./components/Carousel";
+import { FoodCard } from "./components/FoodCard";
+import { Welcome } from "./components/Welcome";
+
 export const HomePage = () => {
-    return (
-        <div className="p-5 mb-4 header image-container">
-            <img src={require("../../images/background2.jpeg")} alt="Blured background" className="full-width-image" />
-        </div>
-    );
-}
+  return (
+    <div>
+      <Welcome />
+      <Carousel />
+    </div>
+  );
+};
