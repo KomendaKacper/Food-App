@@ -1,10 +1,14 @@
 .main-color {
-  background: rgb(190,0,0);
-  background: linear-gradient(90deg, rgba(190,0,0,1) 0%, rgba(255,149,0,1) 60%, rgb(255, 106, 0) 100%);
+  background: rgb(125, 30, 22);
+  background: radial-gradient(
+    circle,
+    rgba(125, 30, 22, 1) 37%,
+    rgba(73, 23, 19, 1) 100%
+  );
 }
 
 body {
-  background-color: rgb(20, 20, 20);
+  background-image: url("./images/background.jpg");
   color: white;
   font-family: "Playwrite CU", cursive;
   font-optical-sizing: auto;
@@ -14,9 +18,8 @@ body {
 
 h4.card-title {
   color: white;
-  font-size: 30px; 
+  font-size: 30px;
 }
-
 
 .bg-image {
   background-image: url("./images/background3.jpeg");
@@ -34,7 +37,7 @@ h4.card-title {
   transform: translate(-0%, -70%);
 }
 
-.main-container{
+.main-container {
   position: relative;
   height: 300px;
   overflow: hidden;
@@ -52,7 +55,6 @@ h4.card-title {
   left: 50%;
 }
 
-
 .navbar-brand {
   margin-left: 10px; /* Odstęp między ikoną a napisem */
 }
@@ -68,7 +70,7 @@ span.navbar-brand {
   align-items: center !important;
 }
 
-.card-border{
+.card-border {
   border: 5px solid #ffffff;
   border-radius: 10px;
 }
@@ -109,5 +111,9 @@ h1.about-title {
 }
 
 p.about-text {
-  font-size: 25px;
+  font-size: 27px;
+}
+
+p {
+  font-family: 'Times New Roman', Times, serif;
 }

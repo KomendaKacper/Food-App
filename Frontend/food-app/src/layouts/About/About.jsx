@@ -11,18 +11,18 @@ export const About = () => {
       <div className="row p-5">
         <div className="col-6 container">
           <div className="row">
-            <h3>
+            <p className="about-text">
               We created this website to make it easier for everyone to order
               their favorite food. We will help you compare the price and
               transport time, and we will also offer you the best restaurants in
               your area.
-            </h3>
+            </p>
           </div>
           <div className="row mt-5">
-            <h5 className="mt-4">If you have any questions, contact us:</h5>
-            <p className="d-flex mt-4">Email: foodapp@email.com</p>
-            <p className="d-flex mt-2">Phone: 123 456 789</p>
-            <p className="d-flex mt-2">
+            <h3 className="mt-4">If you have any questions, contact us:</h3>
+            <p className="d-flex mt-4 about-text">Email: foodapp@email.com</p>
+            <p className="d-flex mt-2 about-text">Phone: 123 456 789</p>
+            <p className="d-flex mt-2 about-text">
               Office location: Kraków Witolda Budryka 2
             </p>
           </div>
@@ -31,7 +31,7 @@ export const About = () => {
           <img
             src={require("../../images/Gifs/CookingGif1.gif")}
             alt="Cooking Gif"
-            className="cooking-gif"
+            className="cooking-gif card-border"
           />
         </div>
       </div>
